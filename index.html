@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se já</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<!-- Sistema de incrição -->
+
+    <header>
+        <h1>Inscreva-se já</h1>
+    </header>
+    <section>
+        <div>
+            <p>Nome
+                <input type="text" name="txtnome" id="txtnome" min="0">
+            </p>
+            <p>Idade
+                <input type="number" name="txtidade" id="txtidade" min="0">
+            </p>
+            <p>Sexo
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Lead Mentoring</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
